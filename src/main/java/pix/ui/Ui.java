@@ -11,51 +11,6 @@ import pix.tasks.Task;
  * Ui class which deals with the interactions with user.
  */
 public class Ui {
-    /** Visual logo of Pix. */
-    private static final String logo = "    ______    __  ___   ___ \n"
-            + "    |   _  \\  |  | \\  \\ /  / \n"
-            + "    |  |_)  | |  |  \\  V  /  \n"
-            + "    |   ___/  |  |   >   <   \n"
-            + "    |  |      |  |  /  .  \\  \n"
-            + "    | _|      |__| /__/ \\__\\\n";
-
-    /** Pix's greeting. */
-    private static final String greet = "    --------------------------------------------------------------\n"
-            + "     How can I assist you?\n"
-            + "    --------------------------------------------------------------";
-
-    /** Line in string. */
-    private static final String line = "    --------------------------------------------------------------\n";
-
-    /**
-     * Displays Pix's introduction.
-     */
-    public static void display() {
-        System.out.println("    Hello, this is\n" + logo);
-        System.out.println(greet);
-    }
-
-    /**
-     * Wraps the message in lines eventEnd display.
-     *
-     * @param message Message eventEnd be displayed.
-     * @return A String with the message wrapped in lines.
-     */
-    public static String wrapLines(String message) {
-        return "    --------------------------------------------------------------\n"
-                + "     " + message + "\n"
-                + "    --------------------------------------------------------------";
-    }
-
-    /**
-     * Returns a line.
-     *
-     * @return A String line.
-     */
-    public static String line() {
-        return line;
-    }
-
     /**
      * Returns bye string to be displayed.
      *
